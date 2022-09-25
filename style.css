@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.container {
+    margin: auto;
+    max-width: 700px;
+}
+
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    background-color:  aliceblue;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+}
+
+.avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 40px 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+
+h1 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    color:rgba(0, 0, 0, 0.85);
+    font-weight: 900;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.social {
+    text-align: center;
+}
+
+a {
+    color: rgb(18, 73, 73);
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:visited {
+    color: rgb(18, 73, 73);
+}
+
+a:active {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.info-text {
+    padding: 20px;
+}
+
+.table {
+    background: rgb(18, 73, 73);
+    color: rgb(172, 197, 193);;
+    border-radius: 40px 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 65%;
+    padding: 20px; 
+    margin: 20px;    
+}
+
+.table_in td {
+    padding: 5px 15px;
+}
+
+.table_in td:nth-child(2) {
+    color:  aliceblue;
+}
+
+.box {
+    background: rgb(172, 197, 193);
+    color: rgb(18, 73, 73);
+    border-radius: 40px 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 55%;
+    padding: 40px; 
+    margin-right: 20px;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.form {
+    margin: 20px;
+}
+
+.row > .form {
+    width: 50%;
+}
+
+.form label{
+    display: block;
+    outline: none;
+}
+
+.form textarea,input {
+    border: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    width: 100%;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-style: italic;
+}
+
+.submit {
+    cursor: pointer;
+    background: rgb(18, 73, 73);
+    border-radius: 40px 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 20%;
+    padding: 20px 5px;
+    margin: 20px;
+    color:  aliceblue;  
+}
+
+.submit:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 620px) {
+    .info {
+      text-align: center;
+      display: block;
+    }
+}
+
+@media (max-width: 620px) {
+    .row {
+      text-align: center;
+      display: block;
+    }
+}
+
+@media (max-width: 620px) {
+    .box {
+        margin:auto;
+    }
+}
+
+@media (max-width: 620px) {
+    .table {
+        margin:auto;
+        margin-bottom: 10px;
+
+    }
+}
+
+
